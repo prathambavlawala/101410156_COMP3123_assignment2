@@ -1,0 +1,159 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* Button Styling */
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Specific Buttons */
+button.add-btn {
+  background-color: #28a745; /* Green */
+  color: white;
+}
+
+button.update-btn {
+  background-color: #ffc107; /* Yellow */
+  color: black;
+}
+
+button.delete-btn {
+  background-color: #dc3545; /* Red */
+  color: white;
+}
+
+button.view-btn {
+  background-color: #17a2b8; /* Teal */
+  color: white;
+}
+
+button.cancel-btn {
+  background-color: gray; /* Gray */
+  color: white;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Form Styling */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  width: 48%;
+  margin: 10px 1%;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  color: #666;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+
+/* App.css or a specific EmployeeDetails.css */
+.employee-details-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.employee-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.employee-details-table th,
+.employee-details-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.employee-details-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.employee-details-table td {
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+}
+
